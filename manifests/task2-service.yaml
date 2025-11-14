@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-init-service
+  labels:
+    app: nginx-init
+spec:
+  selector:
+    app: nginx-init
+  ports:
+  - name: nginx
+    port: 8080
+    targetPort: 8080
+    protocol: TCP
+  type: ClusterIP

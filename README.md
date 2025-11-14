@@ -76,6 +76,6 @@
 
 ### 2.4 Продемонстрировать состояние пода до и после запуска сервиса
 
-Состояние пода после создания Service: [screenshots/11_task2_pod_after_service.txt](screenshots/11_task2_pod_after_service.txt)
+Состояние пода после создания Service: ![screenshots/11_task2_pod_after_service.txt](screenshots/11_task2_pod_after_service.png)
 
 Логи Init-контейнера после создания Service (сервис найден): ![screenshots/12_task2_init_logs_after.txt](screenshots/12_task2_init_logs_after.png)
